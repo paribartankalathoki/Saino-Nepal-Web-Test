@@ -21,7 +21,9 @@ a{
 }
 .title{
 	font-family: 'Philosopher', sans-serif;
+font-family: 'EB Garamond', serif;
 font-family: 'Montez', cursive;
+
 }
 .display-3{
 	font-size: 55px;
@@ -37,41 +39,58 @@ font-family: 'Montez', cursive;
 }
 
 .img-content img{
-	height: 205px;
-	width: 239px;
+	height: 210px;
+	width: 268px;
 	margin-top: 45px;
 	cursor: pointer;
-	margin-left: -4px;
+	margin-left: -15px;
+
 }
 h3{
-	margin-left: 80px;
-	margin-top: 40px;
+	margin-left: 16px;
 	font-size: 17px;
 	text-decoration: underline green;
 }
 
 h5{
-	margin-top: 30px;
-	font-size: 23px;
+	margin-top: 15px;
+	font-size: 20px;
 	text-decoration: underline green;
 }
 .lead{
 	text-align: justify;
-	word-spacing: -3px;
+	word-spacing: 6px;
     margin-left: 0px;
     color: black;
     background-color: white;
+    font-family: 'Montez', cursive;
+	font-family: 'Philosopher', sans-serif;
+	font-family: 'EB Garamond', serif;
+
 }
+hr{
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 35px;
+}
+
+
 
 p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 14px;
     text-align: left;
-    margin-left: 26px;
-    background-color: darkturquoise;
-    color: blue;
+    margin-left: 15px;
+    background-color: steelblue;
+    color: floralwhite;
 }
+.Contact-text{
+	margin-left: 0px;
+	background-color: initial;
+	color: blue;
+}
+
 
 .social-images{
 	display: inline-block;
@@ -97,22 +116,36 @@ p {
 }
 
 .navbar-inverse .navbar-nav .active>.nav-link{
-    color: #fff;
+    color: ghostwhite;
     cursor: pointer;
-    padding-left: 35px;
-    padding-right: 55px;
+    padding-right: 25px;
 }
 
 .bg-inverse {
     background-color: #7b8a92!important;
 }
-
 .nav-item.active a:hover {
-	text-decoration: underline gray;
+    text-decoration: underline;
+}
+.icons-logo{
+	width: 105px;
+	height: 45px;
 	cursor: pointer;
 }
-/*.container.footer{
-	background-color: black;
-	height: 50px;
-	padding-top: 1%;
-}*/
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li{
+    list-style-type: none;
+    display: inherit;
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+    color: white;
+    margin-top: 8px;
+}
